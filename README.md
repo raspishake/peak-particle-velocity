@@ -1,7 +1,7 @@
 # peak-particle-velocity
 Raspberry Shake Peak Particle Velocity (PPV) calculation script
 
-This script will read data from a 3D unit on the Raspberry Shake AM network and convert the output displacement (in mm) into Ground Vibration measurement (PPV - in mm/s). 
+This script will read data from a 3D unit on the Raspberry Shake AM network (or in stand-alone mode) and convert the output displacement (in mm) into Ground Vibration measurement (PPV - in mm/s). 
 
 The source for the conversion formula is [here](https://www.castlegroup.co.uk/guidance/ground-vibration/ground-vibration/).
 
@@ -24,7 +24,9 @@ conda activate ppvmotion
 jupyter-notebook
 ```
 
-Once this is done, it is possible to open the `.ipynb` file in the repository: - [PPVmotion.ipynb](PPVmotion.ipynb)
+Once this is done, it is possible to open one of the two `.ipynb` files in the repository: 
+- [PPVmotion-online.ipynb](PPVmotion-online.ipynb) for when the station is connected to the network
+- [PPVmotion-offline.ipynb](PPVmotion-offline.ipynb) for when the station is in stand-alone mode
 
 The file is commented throughout the various steps, however, this is a brief guide to use it: 
 
