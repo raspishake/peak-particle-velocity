@@ -30,7 +30,7 @@ The file is commented throughout the various steps, however, this is a brief gui
 
 1. Insert a valid Raspberry Shake 3D (RS3D) unit code
 2. Insert a valid start and end time references for the script to work. The format is "YYYY-MM-DDThh:mm:ss.ddd"
-3. If needed, modify the values for the filtering process (the default is a bandpass filter between 0.7 Hz and 2.0 Hz).
+3. If needed, modify the values for the filtering process (the default is a bandpass filter between 0.7 Hz and 2.0 Hz)
 4. The filter can also be removed by commenting out (with ```#```) line 48 of the script ```st.filter("bandpass", freqmin=f1, freqmax=f2, corners=cor)```
 
-Done! By executing the script a plot will be created which shows the Peak Particle Velocity (in mm/s) for each channel (EHZ, EHN, EHE) of the RS3D unit.
+Done! Executing the script will create and save a plot which whill show the Peak Particle Velocity (in mm/s) for each channel (EHZ, EHN, EHE) of the selected RS3D unit.
