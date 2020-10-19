@@ -1,7 +1,7 @@
 # peak-particle-velocity
 Raspberry Shake Peak Particle Velocity (PPV) calculation script
 
-This script will read data from a 3D unit on the Raspberry Shake AM network and convert the output displacement (in mm) into Ground Vibration measurement (PPV). 
+This script will read data from a 3D unit on the Raspberry Shake AM network and convert the output displacement (in mm) into Ground Vibration measurement (PPV - in mm/s). 
 
 The source for the conversion formula is [here](https://www.castlegroup.co.uk/guidance/ground-vibration/ground-vibration/).
 
