@@ -33,4 +33,4 @@ The file is commented throughout the various steps, however, this is a brief gui
 3. If needed, modify the values for the filtering process (the default is a bandpass filter between 0.7 Hz and 2.0 Hz).
 4. The filter can also be removed by commenting out (with ```#```) line 48 of the script ```st.filter("bandpass", freqmin=f1, freqmax=f2, corners=cor)```
 
-Done! By executing the script a plot will be created which shows the Peak Particle Velocity (in mm/s) for each channel of the RS3D unit.
+Done! By executing the script a plot will be created which shows the Peak Particle Velocity (in mm/s) for each channel (EHZ, EHN, EHE) of the RS3D unit.
