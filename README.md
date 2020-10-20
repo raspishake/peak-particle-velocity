@@ -1,5 +1,9 @@
 # peak-particle-velocity
-Raspberry Shake Peak Particle Velocity (PPV) calculation script - Coded by G. Petricca
+### Raspberry Shake Peak Particle Velocity (PPV) calculation script
+
+*Coded by Giuseppe Petricca (@gmrpetricca)*
+
+[![GitHub](https://img.shields.io/github/license/raspishake/rsudp)](https://github.com/raspishake/rsudp/blob/master/LICENSE)
 
 This script will read data from a 3D unit on the Raspberry Shake AM network (or in stand-alone mode) and convert the output displacement (in mm) into Ground Vibration measurement (PPV - in mm/s). 
 
