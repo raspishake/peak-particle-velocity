@@ -5,7 +5,7 @@ This script will read data from a 3D unit on the Raspberry Shake AM network (or 
 
 The source for the conversion formula is [here](https://www.castlegroup.co.uk/guidance/ground-vibration/ground-vibration/).
 
-![Example output](PPVMotion_R55F8.png)
+![Example output](img/PPVMotion_R55F8.png)
 
 Required software and packages:
 - Python 3
