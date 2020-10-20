@@ -42,6 +42,8 @@ Once this is done, it is possible to open one of the two `.ipynb` files in the r
 - [PPVmotion-online.ipynb](online/PPVmotion-online.ipynb) for when the station is connected to the network
 - [PPVmotion-offline.ipynb](offline/PPVmotion-offline.ipynb) for when the station is in stand-alone mode
 
+Some data are provided in the offline folder for testing purposes. Please keep the folder structure as it is.
+
 The file is commented throughout the various steps, however, this is a brief guide to use it: 
 
 1. Insert a valid Raspberry Shake 3D (RS3D) unit code
