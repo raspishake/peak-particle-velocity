@@ -48,6 +48,8 @@ Once this is done, it is possible to open one of the two `.ipynb` files in the r
 
 Some data are provided in the offline folder for testing purposes. Please keep the folder structure as it is.
 
+The ```station.xml``` provided file is for a RS3D V5 Shake unit. Different Shakes will reqiuire different files, they can be found [here](https://manual.raspberryshake.org/metadata.html#templates-for-manual-metadata-generation).
+
 The file is commented throughout the various steps, however, this is a brief guide to use it: 
 
 1. Insert a valid Raspberry Shake 3D (RS3D) unit code
