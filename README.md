@@ -62,6 +62,5 @@ The file is commented throughout the various steps, however, this is a brief gui
 
 Done! Executing the script will create and save a plot which whill show the Peak Particle Velocity (in mm/s) for each channel (EHZ, EHN, EHE) of the selected RS3D unit.
 
-Troubleshooting: 
-
+-- Troubleshooting: 
 If required, the ```datetime``` package can be installed from within the environment with ```pip install DateTime```.
