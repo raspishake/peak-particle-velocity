@@ -25,7 +25,7 @@ For the offline version two more packages are needed:
 Installation via Anaconda (online version):
 ```bash
 # install the environment with the correct software:
-conda create -n ppvmotion python=3 jupyter matplotlib obspy numpy
+conda create -n ppvmotion python=3 jupyter jupyterlab matplotlib obspy numpy
 # activate the environment
 conda activate ppvmotion
 # navigate to the folder where you have the Python code via command prompt
