@@ -28,18 +28,21 @@ Installation via Anaconda (online version):
 conda create -n ppvmotion python=3 jupyter matplotlib obspy numpy
 # activate the environment
 conda activate ppvmotion
-# start Jupyter Notebook
-jupyter-notebook
-```
+# navigate to the folder where you have the Python code via command prompt
+cd -local address of the Python folder-
+# start Jupyter Lab
+jupyter lab
 
 Installation via Anaconda (offline version):
 ```bash
 # install the environment with the correct software:
-conda create -n ppvmotion python=3 jupyter matplotlib obspy numpy datetime paramiko
+conda create -n ppvmotion python=3 jupyter jupyterlab matplotlib obspy numpy paramiko
 # activate the environment
 conda activate ppvmotion
-# start Jupyter Notebook
-jupyter-notebook
+# navigate to the folder where you have the Python code via command prompt
+cd -local address of the Python folder-
+# start Jupyter Lab
+jupyter lab
 ```
 
 Once this is done, it is possible to open one of the two `.ipynb` files in the repository: 
@@ -58,3 +61,7 @@ The file is commented throughout the various steps, however, this is a brief gui
 4. The filter can also be removed by commenting out (with ```#```) line 48 of the online script or line 94 of the offline script ```st.filter("bandpass", freqmin=f1, freqmax=f2, corners=cor)```
 
 Done! Executing the script will create and save a plot which whill show the Peak Particle Velocity (in mm/s) for each channel (EHZ, EHN, EHE) of the selected RS3D unit.
+
+Troubleshooting: 
+
+If required, the ```datetime``` package can be installed from within the environment with ```pip install DateTime```.
